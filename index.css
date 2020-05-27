@@ -1,0 +1,39 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    font-family: courier, monospace;
+    font-size: 12px;
+    background-color: black;
+}
+
+body {
+    border: 1px solid white;
+    height: 100vh;
+}
+
+svg {
+    margin-bottom: 10px;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+span {
+    display: block;
+    line-height: 1.618;
+}
+
+a:hover {
+    text-decoration: none;
+}
